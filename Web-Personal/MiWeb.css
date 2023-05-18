@@ -1,0 +1,210 @@
+body {
+    margin: 0px;
+    background: linear-gradient(45deg, rgba(17, 138, 178, 0.75) 0%, rgba(239, 71, 111, 0.75) 100%);
+    background-attachment: fixed;
+}
+
+form {
+    align-items: center;
+}
+
+#inputMensaje {
+    text-align: top;
+    width: 500px;
+    height: 400px;
+}
+
+section {
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#hobbies {
+    margin-left: 150px;
+}
+
+.fotosDeMi {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 65px;
+}
+
+.fotosDeMi img {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 150px;
+    margin: 2px;
+}
+
+.yoDeAdolescente {
+    max-width: 500px;
+    height: 500px;
+    border-radius: 150px;
+}
+
+h1 {
+    margin: 8px;
+}
+
+article {
+    margin: 8px;
+}
+
+.gonewiththewind {
+    float: right;
+    margin: 10px;
+}
+
+.eldenring,
+.wanda,
+.fotoHuerta {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.reinas {
+
+    float: right;
+}
+
+.naturaleza {
+    max-width: 500px;
+    max-height: 500px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.formLabel {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
+}
+iframe {
+    width: 560px;
+    height: 315px;
+    border: 5px solid #FFD166;
+}
+
+h2 {
+    text-decoration: underline;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+.gatonegro {
+    margin: 10px;
+    max-width: 500px;
+    max-height: 500px;
+    float: left;
+}
+
+p {
+    text-align: justify;
+    margin: 20px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
+}
+
+figure {
+    margin-bottom: 0px;
+}
+
+figcaption {
+    margin-top: 0px;
+    margin-left: 39px;
+}
+
+#backgroundMusic {
+    margin-left: 0px;
+}
+
+#navAficiones {
+    color: white;
+    padding: 1px;
+    width: fit-content;
+    background-color: #073B4C;
+    position: sticky;
+    top: 20px;
+}
+
+#navAficiones li a {
+    color: rgb(255, 255, 255);
+
+}
+
+#navAficiones ul {
+    margin-right: 20px;
+}
+
+.navWeb ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #073B4C;
+}
+
+.navWeb li {
+    float: right;
+}
+
+.navWeb li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navWeb li a:hover {
+    background-color: #118AB2;
+}
+
+#inicio {
+    padding: 0px;
+}
+
+#contacto:hover:before {
+    content: "Pincha aquí para dejar alguna sugerencia o comentario";
+    font-size: x-large;
+}
+
+#hobbies:hover:before {
+    content: "Pincha aquí si quieres conocer cuáles son mis hobbies";
+    font-size: x-large;
+}
+
+#historia:hover:before {
+    content: "Pincha aquí si quieres saber más sobre mí";
+    font-size: x-large;
+}
+
+#inicio li a:hover span {
+    display: none
+}
+
+#inicio span {
+    font-size: x-large;
+}
+
+#inicio li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0;
+}
+
+#inicio li {
+    padding: 91px;
+}
+
+#inicio ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    margin: 0%;
+    background: linear-gradient(45deg, rgb(17, 178, 1, 0.75) 0%, rgba(217, 71, 239, 0.75) 100%);
+    background-attachment: fixed;
+}
