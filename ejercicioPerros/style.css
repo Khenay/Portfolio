@@ -1,0 +1,196 @@
+/* GENERAL */
+body {
+    margin: 0px;
+    background: linear-gradient(45deg, rgba(17, 138, 178, 0.75) 0%, rgba(239, 71, 111, 0.75) 100%);
+    background-attachment: fixed;
+}
+
+img {
+    width: 110px;
+    height: 104px;
+
+}
+
+/* PRIMERA IMAGEN */
+
+#random {
+    padding: 0px;
+    margin: 5px;
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+     background: linear-gradient(100deg, rgb(207, 125, 191) 0%, rgb(83, 122, 195) 50%, rgb(211, 218, 180) 100% ); 
+
+
+}
+
+#fotoBoton {
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    align-content: space-between;
+
+}
+
+
+/* BOTÓN */
+
+
+
+.boton {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    color: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    margin-left: 3.5%;
+    background-clip: text;
+    animation: color 3s linear infinite;
+    background-size: 500%;   
+    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);
+
+}
+
+@keyframes color {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+}
+
+.boton:hover {
+    color: black
+}
+
+.boton:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    
+}
+
+
+/* GRÁFICA */
+#myChart {
+    padding-right: 80px;
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+/* CAJA GRANDE PARA CARGAR IMÁGENES */
+#mov {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor {
+    display: grid;
+    width: 568px;
+    height: 424px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: black;
+    border: 3px solid black;
+    gap: 2px;
+    animation: blink 5s infinite linear;
+    border-radius: 10px;
+}
+
+@keyframes blink{
+    0%{
+        border: 10px solid #37bcf9;
+    }
+    25%{
+        border: 10px solid rgb(65, 225, 65);
+    }
+    75%{
+        border: 10px solid yellow;
+    }
+    100%{
+        border: 10px solid #37bcf9;
+    }
+}
+
+#c1 {
+    margin: 0px;
+    background-color: rgb(173, 135, 173);
+}
+
+#c2 {
+    background-color: rgb(193, 121, 121);
+}
+
+#c3 {
+    background-color: rgb(122, 122, 182);
+}
+
+#c4 {
+    background-color: rgb(110, 196, 110);
+}
+
+#c5 {
+    background-color: rgb(188, 188, 113);
+}
+
+#c6 {
+    background-color: rgb(122, 122, 182);
+}
+
+#c7 {
+    background-color: rgb(188, 188, 113);
+}
+
+#c8 {
+    background-color: rgb(173, 135, 173);
+}
+
+#c9 {
+    background-color: rgb(193, 121, 121);
+}
+
+#c10 {
+    background-color: rgb(110, 196, 110);
+}
+
+#c11 {
+    background-color: rgb(110, 196, 110);
+}
+
+#c12 {
+    background-color: rgb(193, 121, 121);
+}
+
+#c13 {
+    background-color: rgb(188, 188, 113);
+}
+
+#c14 {
+    background-color: rgb(122, 122, 182);
+}
+
+#c15 {
+    background-color: rgb(173, 135, 173);
+}
+
+#c16 {
+    background-color: rgb(188, 188, 113);
+}
+
+#c17 {
+    background-color: rgb(173, 135, 173);
+}
+
+#c18 {
+    background-color: rgb(110, 196, 110);
+}
+
+#c19 {
+    background-color: rgb(193, 121, 121);
+}
+
+#c20 {
+    background-color: rgb(122, 122, 182);
+}
