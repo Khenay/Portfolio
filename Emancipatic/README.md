@@ -1,4 +1,4 @@
-# Crews challenge | Full Stack Web App
+# Crews challenge | MERN Stack | Full Stack Web App
 
 ## Emancipatic
 
